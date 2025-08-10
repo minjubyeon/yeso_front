@@ -76,7 +76,7 @@
   width: 6px;
 }
 
-.Onboarding .overlap {
+.Onboarding .circle-group {
   border-radius: 141.5px;
   height: 283px;
   left: 54px;
@@ -85,7 +85,7 @@
   width: 283px;
 }
 
-.Onboarding .overlap-wrapper {
+.Onboarding .circle-3 {
   background-color: #fcf6e6;
   border-radius: 141.5px;
   height: 283px;
@@ -95,7 +95,7 @@
   width: 283px;
 }
 
-.Onboarding .overlap-2 {
+.Onboarding .circle-2 {
   background-color: #fbde8e99;
   border-radius: 120.5px;
   height: 241px;
@@ -105,7 +105,7 @@
   width: 241px;
 }
 
-.Onboarding .circle-3 {
+.Onboarding .circle-1 {
   background-color: #f9d46d99;
   border-radius: 95.85px;
   height: 192px;
@@ -115,7 +115,7 @@
   width: 192px;
 }
 
-.Onboarding .circle-4 {
+.Onboarding .circle-0 {
   background-color: #f5ca4099;
   border-radius: 74.86px;
   height: 150px;
