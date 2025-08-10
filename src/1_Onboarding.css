@@ -37,7 +37,7 @@
   text-align: center;
   top: 583px;
   width: 100%;             /* 전체 폭 사용 */
-  text-align: center;      /* 가로 가운데 정렬 */
+  text-align: center;      /* 항상 가로 중앙에 정렬 */
 }
 
 .Onboarding .step-bar {
@@ -162,10 +162,12 @@
 
 .Onboarding .btn-next-textbox {
   height: 24px;
-  left: 136px;
   position: relative;
   top: 13px;
-  width: 39px;
+  width: 100%px;  /* 버튼 폭 전부 사용 */
+  display : flex;
+  justify-content: center; /* 가로 중앙 */
+  align-items: center;     /* 세로 중앙 */
 }
 
 .Onboarding .btn-next-text {
@@ -173,11 +175,8 @@
   font-family: 'Inter-SemiBold', Helvetica;
   font-size: 20px;
   font-weight: 600;
-  left: 0;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 0;
   white-space: nowrap;
 }
 
@@ -186,10 +185,10 @@
   font-family: 'Lemon-Regular', Helvetica;
   font-size: 40px;
   font-weight: 400;
-  left: 135px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
+  width: 100%;
   text-align: center;
   top: 128px;
 }
