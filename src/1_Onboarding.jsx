@@ -60,6 +60,7 @@ export const Onboarding = () => {
               <div className="circle-0" />
             </div>
           </div>
+          
           <div className="or">
             {page === 0 && <>소개문구<br/>or<br/>캐릭터</>}
             {page === 1 && <>페이지1<br/>이미지</>}

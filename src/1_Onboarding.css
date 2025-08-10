@@ -18,11 +18,12 @@
   font-family: 'Inter-SemiBold', Helvetica;
   font-size: 24px;
   font-weight: 600;
-  left: 99px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 545px;
+  width: 100%;             /* 전체 폭 사용 */
+  text-align: center;      /* 항상 가로 중앙에 정렬 */
 }
 
 .Onboarding .p {
@@ -30,12 +31,13 @@
   font-family: 'Inter-Regular', Helvetica;
   font-size: 15px;
   font-weight: 400;
-  left: 98px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 583px;
+  width: 100%;             /* 전체 폭 사용 */
+  text-align: center;      /* 가로 가운데 정렬 */
 }
 
 .Onboarding .step-bar {
