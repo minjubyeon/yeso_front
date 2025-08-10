@@ -38,7 +38,7 @@
   top: 583px;
 }
 
-.Onboarding .group {
+.Onboarding .step-bar {
   height: 6px;
   left: 165px;
   position: absolute;
@@ -46,7 +46,7 @@
   width: 63px;
 }
 
-.Onboarding .rectangle {
+.Onboarding .step-fill {
   background-color: #63827c;
   border-radius: 60px;
   height: 6px;
@@ -56,7 +56,7 @@
   width: 30px;
 }
 
-.Onboarding .circle {
+.Onboarding .step-dot1 {
   background-color: #d9d9d9;
   border-radius: 3px;
   height: 6px;
@@ -66,7 +66,7 @@
   width: 6px;
 }
 
-.Onboarding .circle-2 {
+.Onboarding .step-dot2 {
   background-color: #d9d9d9;
   border-radius: 3px;
   height: 6px;

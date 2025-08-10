@@ -13,14 +13,14 @@ export const Onboarding = () => {
           나만의 식물과 감정을 나누세요.
         </p>
 
-        <div className="group">
-          <div className="rectangle" />
-
-          <div className="circle" />
-
-          <div className="circle-2" />
+        //바
+        <div className="step-bar">
+          <div className="step-fill" />
+          <div className="step-dot1" />
+          <div className="step-dot2" />
         </div>
 
+        
         <div className="overlap">
           <div className="overlap-wrapper">
             <div className="overlap-2">
