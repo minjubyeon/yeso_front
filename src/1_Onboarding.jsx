@@ -11,14 +11,20 @@ export const Onboarding = () => {
           <br />
           나만의 식물과 감정을 나누세요.
         </p>
+        
+        
         //바
         <div className="step-bar">
           <div className="step-fill" />
           <div className="step-dot1" />
           <div className="step-dot2" />
         </div>
+
+
         //노란색 동그라미들
         <div className="circle-group">
+
+          //노란색 동그라미들
           <div className="circle-3">
             <div className="circle-2">
               <div className="circle-1" />
@@ -33,11 +39,14 @@ export const Onboarding = () => {
             캐릭터
           </div>
         </div>
+
+        //다음 버튼
         <div className="btn-next-wrapper">
           <div className="btn-next-textbox">
             <div className="btn-next-text">다음</div>
           </div>
         </div>
+
         <div className="text">logo</div>
       </div>
     </div>
