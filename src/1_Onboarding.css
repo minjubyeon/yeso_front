@@ -93,6 +93,7 @@
   position: absolute;
   top: 0;
   width: 283px;
+  animation: ripple 3s ease-in-out infinite;
 }
 
 .Onboarding .overlap-2 {
@@ -103,6 +104,7 @@
   position: relative;
   top: 21px;
   width: 241px;
+  animation: ripple 3s ease-in-out infinite 0.5s;
 }
 
 .Onboarding .circle-3 {
@@ -113,6 +115,7 @@
   position: absolute;
   top: 25px;
   width: 192px;
+  animation: ripple 3s ease-in-out infinite 1s;
 }
 
 .Onboarding .circle-4 {
@@ -123,6 +126,23 @@
   position: absolute;
   top: 46px;
   width: 150px;
+  animation: ripple 3s ease-in-out infinite 1.5s;
+}
+
+/* 물결 애니메이션 키프레임 */
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
 }
 
 .Onboarding .or {
@@ -137,6 +157,23 @@
   text-align: center;
   top: 115px;
   width: 59px;
+  animation: textPulse 3s ease-in-out infinite;
+}
+
+/* 텍스트 펄스 애니메이션 */
+@keyframes textPulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .Onboarding .group-wrapper {
