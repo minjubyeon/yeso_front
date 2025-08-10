@@ -54,7 +54,14 @@
   position: absolute;
   top: 0;
   width: 30px;
+  /* 추가: 부드럽게 이동 */
+  transition: left 0.28s ease;
 }
+
+/* 추가: 페이지별 위치 */
+.Onboarding .step-fill.pos0 { left: 0px; }
+.Onboarding .step-fill.pos1 { left: 40px; }
+.Onboarding .step-fill.pos2 { left: 57px; }
 
 .Onboarding .step-dot1 {
   background-color: #d9d9d9;
@@ -147,6 +154,8 @@
   position: absolute;
   top: 763px;
   width: 310px;
+  /* 추가: 클릭 포인터 */
+  cursor: pointer;
 }
 
 .Onboarding .btn-next-textbox {
@@ -182,3 +191,11 @@
   text-align: center;
   top: 128px;
 }
+
+.Onboarding .step-fill { transition: left 0.28s ease; }
+.Onboarding .step-fill.pos0 { left: 0px; }
+.Onboarding .step-fill.pos1 { left: 40px; }
+.Onboarding .step-fill.pos2 { left: 57px; }
+.Onboarding .btn-next-wrapper { cursor: pointer; }
+
+
