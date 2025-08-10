@@ -17,6 +17,7 @@ export const Onboarding = () => {
           <div className="step-dot1" />
           <div className="step-dot2" />
         </div>
+        //노란색 동그라미들
         <div className="circle-group">
           <div className="circle-3">
             <div className="circle-2">
@@ -32,12 +33,12 @@ export const Onboarding = () => {
             캐릭터
           </div>
         </div>
-        <div className="group-wrapper">
-          <div className="div-wrapper">
-            <div className="text-wrapper-2">다음</div>
+        <div className="btn-next-wrapper">
+          <div className="btn-next-textbox">
+            <div className="btn-next-text">다음</div>
           </div>
         </div>
-        <div className="text-wrapper-3">logo</div>
+        <div className="text">logo</div>
       </div>
     </div>
   );
